@@ -1,0 +1,26 @@
+FINORA EXPENSE TRACKER — START HERE
+
+1. Extract this folder and open it in VS Code.
+2. Open Terminal in the project folder.
+3. Run:
+   python3 -m venv .venv
+   source .venv/bin/activate
+   pip install -r requirements.txt
+   streamlit run app.py
+4. Open the local URL printed in the terminal (normally http://localhost:8501).
+
+NEW FEATURES
+- WhatsApp-inspired bottom navigation and theme packs.
+- Lend/borrow due-date in-app alerts and pre-filled WhatsApp reminder links.
+- Transaction date + payment time + UTR/reference fields.
+- Optional proof screenshot uploads for transactions, savings and group contributions.
+- Optional OCR text extraction for transaction screenshots.
+- Audit history for major money-related actions.
+
+IMPORTANT LIMITATIONS
+- Due-date alerts appear when the Streamlit app is open. WhatsApp links are pre-filled; you must review and press Send. The app does not automatically send messages.
+- OCR is not bank verification. Verify status and UTR in your bank/UPI app. Real verification requires an authorised payment provider integration.
+- Proof screenshots and financial records are stored locally in finora.db. Protect this file.
+- Optional OCR requires `pip install pillow pytesseract` plus the Tesseract system program. The app still runs if OCR is not installed.
+
+Read CODE_GUIDE.md for a beginner-friendly explanation of the files, libraries, proof workflow, audit log and limitations.

@@ -1,0 +1,14 @@
+{
+  "name": "Finora Personal Finance",
+  "short_name": "Finora",
+  "description": "Personal spending, savings goals and group funding",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f7f8ff",
+  "theme_color": "#6757e8",
+  "icons": [
+    {"src": "/icons/finora-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "/icons/finora-512.png", "sizes": "512x512", "type": "image/png"}
+  ]
+}

@@ -1,0 +1,11 @@
+date,description,amount,type,category,reference,payment_method
+2026-10-01,Monthly allowance,8000,Income,Allowance,DEMO001,UPI
+2026-10-02,College lunch,120,Expense,Food & drinks,DEMO002,UPI
+2026-10-03,Bus pass,650,Expense,Transport,DEMO003,UPI
+2026-10-04,Notebook and pens,240,Expense,Education,DEMO004,Debit card
+2026-10-05,Freelance poster design,1500,Income,Freelance,DEMO005,Bank transfer
+2026-10-06,Coffee with friends,180,Expense,Food & drinks,DEMO006,UPI
+2026-10-07,Music subscription,119,Expense,Subscriptions,DEMO007,Debit card
+2026-10-08,Movie ticket,280,Expense,Entertainment,DEMO008,UPI
+2026-10-10,Groceries,850,Expense,Food & drinks,DEMO009,UPI
+2026-10-12,Auto fare,160,Expense,Transport,DEMO010,Cash
